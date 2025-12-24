@@ -36,7 +36,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8425721052:AAEXhnf1PA-yab9AN4wHM3mKi25YsrlANwM")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "TELEGRAM_TOKEN")
 
 DB_PATH = "assistant_v14.db"
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"
